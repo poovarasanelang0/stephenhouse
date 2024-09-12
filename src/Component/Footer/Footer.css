@@ -1,0 +1,133 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.background_footer {
+    background: #276195;
+    height: auto;
+}
+
+.footerptag {
+    color: aliceblue;
+    font-weight: 10;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+}
+
+.footerimg img {
+    width: 30vh;
+    margin-left: -20px;
+}
+
+.footermission {
+    color: rgb(211, 209, 209);
+}
+
+.connect_back {
+    margin-bottom: 10px;
+    background: #419449;
+    border-radius: 6px;
+    padding: 10px;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.custom-footer {
+    text-align: left; 
+    margin-left: 0; 
+    padding-left: 0; 
+    padding-top: 15px;
+  }
+  
+  .custom-footer h6 {
+    margin-left: 0; 
+    padding-left: 0; 
+    font-weight: 500;
+    color: white;
+    font-size: large;
+  }
+  
+  .custom-footer ul {
+    list-style-type: none; 
+    padding-left: 0; 
+    margin-left: 0; 
+    
+  }
+  
+  .custom-footer li {
+    margin-left: 0;
+    padding-left: 0; 
+    color: white;
+    padding: 3px;
+    font-size: 12px;
+  }
+  .copyright h6{
+    margin-top: 25px;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 13px;
+  }
+
+  .copyright1{
+    margin-left: 10vh;
+    
+  }
+  .copyright1 h6{
+   padding-top: 20px;
+    
+  }
+  .copyright1 h6{
+    justify-content: center;
+    display: flex;
+  }
+
+
+  @media only screen and (max-width: 768px) {
+   .connect_back {
+    margin-bottom: 10px;
+    background: #419449;
+    border-radius: 6px;
+    padding: 10px;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.copyright1{
+  margin-left: 10px;
+  
+}
+.copyright1 h6{
+  justify-content: center;
+  display: flex;
+}
+  
+  }
+
+
+  @media (max-width: 1024px) {
+    .connect_back {
+      margin-bottom: 10px;
+      background: #419449;
+      border-radius: 6px;
+      padding: 10px;
+      padding-left: 5vh;
+      padding-right: 5vh;
+      font-weight: 400;
+      font-size: 18px;
+      margin-top: 10px;
+  }
+  .copyright1{
+    margin-left: 30px;
+    margin-top: 10px; 
+  }
+  .copyright1 h6{
+    justify-content: center;
+    display: flex;
+  }
+
+}
+  

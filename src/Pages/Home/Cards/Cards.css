@@ -1,0 +1,11 @@
+.container_card {
+    margin-top: 60vh;
+}
+
+
+.companies img {
+    height: 35px;
+    width: auto;
+    margin: 10px;
+    display: block;
+}

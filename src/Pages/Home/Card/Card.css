@@ -1,0 +1,164 @@
+* {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+.col_flex{
+    gap:10px;
+}
+
+.applyborder_rad {
+    border-radius: 5px;
+    padding-left: 50px;
+    padding-right: 40px;
+    margin-left: 5px;
+    margin-right: 15px;
+    padding-bottom: 5vh;
+    
+}
+
+/* ----------------------------------------------------- */
+.applyborder_rad {
+    justify-content: center;
+}
+
+.player_wrapper01_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 25vh;
+    overflow: hidden;
+}
+
+
+.react_player01 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.borderromve {
+    border: none;
+    /* Remove the border */
+    box-shadow: none;
+    /* Remove any shadow that might look like a border */
+}
+
+
+.card_body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -1vh;
+    margin-top: -2vh;
+
+}
+
+.card-title11 {
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.card-text11 {
+    font-size: 12px;
+    margin-top: 5px;
+    color: gray;
+}
+
+@media (max-width: 768px) {
+    .player_wrapper01_1 {
+        height: 30vh;
+    }
+
+    .card_body {
+        padding: 10px;
+    }
+    
+    
+    .card-title11 {
+        font-size: 1.2rem;
+    }
+
+    .card-text11 {
+        font-size: 0.9rem;
+    }
+    .applyborder_rad {
+        border-radius: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 25px;
+        padding-bottom: 5vh;
+        margin-top: 12px;
+        
+    }
+    
+   
+    
+}
+
+
+.col_flex {
+    gap: 10px;
+}
+
+.applyborder_rad {
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.player_wrapper01_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 25vh;
+    overflow: hidden;
+}
+
+.react_player01 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card_body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -2vh;
+}
+
+.card-title11 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card-text11 {
+    font-size: 12px;
+    margin-top: 5px;
+    color: gray;
+}
+
+@media (max-width: 768px) {
+    .applyborder_rad {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .player_wrapper01_1 {
+        height: 30vh;
+    }
+
+    .card-title11 {
+        font-size: 1.2rem;
+    }
+
+    .card-text11 {
+        font-size: 0.9rem;
+    }
+}

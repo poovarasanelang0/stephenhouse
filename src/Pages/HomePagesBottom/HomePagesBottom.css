@@ -1,0 +1,46 @@
+
+* {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.backcolor {
+  background: #276195;
+  height: auto;
+}
+
+.atcolor h5 {
+  font-size: 30px;
+  color: rgb(234, 234, 234);
+}
+
+.margintopmove{
+  margin-top: 13vh;
+  margin-bottom: 13vh;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  
+  .margintopmove{
+    margin-top: -2vh;
+    margin-bottom: -2vh;
+  }
+  .centerheader h4{
+    display: flex;
+    justify-content: center;
+  }
+.imgsize img{
+  width: auto;
+  height: 8vh;
+  padding-bottom: 5px;
+}
+
+
+ }
+ 
+

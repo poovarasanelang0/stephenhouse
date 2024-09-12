@@ -1,0 +1,41 @@
+.player_wrapper01 {
+    position: relative;
+    width: 100%;
+    height: 65vh;
+    /* margin-left: 0vh; */
+    margin-top: -2vh;
+    overflow: hidden; /* Ensure the content stays within the wrapper */
+}
+
+.react_player01 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover; /* Cover the entire area without distortion */
+    z-index: 1; /* Place the video at the back */
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.7));
+}
+@media (max-width: 768px) {
+    .player_wrapper01 {
+        height: 50vh; 
+        width: 100%;
+    }
+
+    .react_player01 {
+        height: 50vh;
+         width: 100%;
+    }
+}
+@media (max-width: 430px){
+    .player_wrapper01 {
+        height: 50vh; 
+        width: 100%;
+    }
+
+    .react_player01 {
+        height: 50vh;
+         width: 100%;
+    }
+}

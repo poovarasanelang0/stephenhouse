@@ -1,0 +1,47 @@
+* {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  
+
+
+
+
+.faq p{
+    font-size: 14px;
+  margin-top: 15px;
+  }
+
+  .answarecolor{
+    color:  #419449;
+    font-weight:600;
+  }
+  .faq-summary {
+    position: relative;
+    width: 100%; /* Ensure it spans the full width of the container */
+    padding-bottom: 25px; /* Add space for the hr element */
+}
+
+.faq-summary hr {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border: 0.01 solid #000; /* Adjust color and style as needed */
+    margin: 0;
+    padding: 0;
+}
+
+.question-text {
+    margin-bottom: 10px; /* Adjust this value to set the gap between the question and the hr */
+}
+
+.accordion-content {
+    margin-top: -5px; /* Add some space between the question and the content */
+}
+.answertag{
+    font-size: 14px;
+}

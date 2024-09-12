@@ -1,0 +1,218 @@
+.problemcontainer {
+    margin-top: 10vh;
+    margin-bottom: -18vh;
+}
+
+.Problem_solving p {
+    margin-top: -4vh;
+    /* margin-left: 53vh; */
+
+}
+
+.Problem_solving h1 {
+    margin: 0 auto 30px;
+    text-align: center;
+   margin-left: 8vh;
+    padding-bottom: 1vh;
+
+}
+
+.Problem_solving span {
+    font-weight: bold;
+}
+
+.Problem_solving h1 {
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+.centered-text {
+    text-align: left;
+    margin-left: 45vh;
+    margin-bottom: 8vh;
+    width: fit-content;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+
+.Problem_solving button {
+    background-color: rgb(65, 109, 149);
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    padding: 10px 20px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    margin: 0 auto;
+    display: block;
+    margin-top: -4vh;
+}
+
+.Problem_solving button:hover {
+    background-color: #419449;
+    color: white;
+
+}
+
+
+
+.Problem_solving_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.lapvideos video {
+    margin-top: -20vh;
+}
+.Problem_solving h5 {
+    margin-left: 45vh;
+    padding-bottom: 10px;
+    margin-bottom: 5vh;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.player_wrapper04 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.react_player04 {
+    width: 80%;
+    height: 500px;
+}
+.Technology_Content h1{
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    text-align: center;
+}
+
+.companies img {
+    height: 35px;
+    width: auto;
+    margin: 20px;
+    display: block;
+    margin-bottom: 30vh
+}
+
+
+@media (max-width: 768px) {
+
+    .Problem_solving h1 {
+        width: 80%;
+        margin-left: -10vh;
+        margin-right: 0vh;
+        margin-top: -75px;
+        
+    }
+
+    .Problem_solving p {
+        width: 80%;
+        margin-left: 10vh;
+        margin-right: auto;
+        margin-top: -15vh;
+        margin-bottom: 40vh;
+       
+    }
+
+    .Problem_solving button {
+        margin: 20px auto;
+        font-size: 1rem;
+    }
+
+    .react_player04 {
+        width: 100%;
+        height: auto;
+    }
+
+    .Problem_solving_2 {
+        height: auto;
+    }
+}
+@media (max-width: 430px) {
+
+    .Problem_solving h5 {
+       width: 80%;
+        margin-bottom: 20vh;
+        margin-left: 2vh;
+        font-size: 20px;
+        
+    
+
+    }
+
+    .Problem_solving p {
+        /* font-size: 14px;
+        width: 80%;
+        margin-bottom: 20vh;
+        margin-top: -20vh;
+        margin-left: 35px;
+        padding-bottom: 14vh; */
+        justify-content: center;
+    width: 100%;
+    margin-left: 1px;
+    padding-left: 20px;
+
+
+    }
+
+    .Problem_solving button {
+        margin-top: -30vh;
+
+    }
+
+    .react_player04 {
+        width: 100%;
+        height: auto;
+    }
+
+    .player_wrapper04 {
+
+        margin-top: 33vh;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .Problem_solving {
+        margin: 0 auto 10px;
+        text-align: center;
+        padding-top: 5vh;
+    }
+   
+   
+
+    .lapvideos video {
+        margin-top: -50vh;
+    }
+
+    
+    .Problem_solving h1{
+        margin-left: 10vh;
+    }
+    
+
+}
+
+
+@media (max-width: 1440px) {
+    
+    .Problem_solving h1{
+        margin-left: 10vh;
+    }
+
+}

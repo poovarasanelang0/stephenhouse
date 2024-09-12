@@ -1,0 +1,74 @@
+.fontfamily {
+    font-weight: 500;
+    margin-left: 10px;
+    
+  }
+  .Card_news span{
+    font-weight: 700;
+  }
+  .Card_news_contact{
+    margin-top: -10vh;
+  }
+  
+  .slider-container {
+    margin-top: 4px;
+  }
+  
+  .innewssilder {
+    padding: 0 1px;
+  }
+  
+  .fixed-height-card {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .fixed-height-card .card-body {
+    flex-grow: 1;
+  }
+  
+  
+  
+  .bg_secondary {
+    background: #f6f7f8;
+    font-weight: 500;
+    font-size: 14px;
+    height: 18vh;
+  
+  }
+  
+  
+  * {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  .card-text1{
+    font-size: 12px;
+    font-weight: 600;
+  }
+  
+  
+  
+  @media only screen and (max-width: 768px) {
+    .fontfamily {
+      font-weight: 500;
+      margin-left: -1px;
+    }
+  
+    .bg_secondary {
+      background: #f6f7f8;
+      font-weight: 500;
+      font-size: 12px;
+      height: 18vh;
+  
+    }
+  
+  
+  }
+  
+  
